@@ -5,7 +5,7 @@ import { AppService } from './services/app.service';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { HomeComponent } from './home/home.component';
 import { LoaderService } from './services/LoaderService';
-import { interval } from 'rxjs';
+import { interval } from 'rxjs'; 
 import { CommonModule } from '@angular/common';
 
 @Component({
