@@ -1,4 +1,16 @@
-@for(data of products(); track data){
+<!-- @for(data of products(); track data){
 
     {{data.availabilityStatus}}
-}
+} -->
+
+<form [formGroup]="formGroup" >
+
+    <input type="text" formControlName="name" >Name
+    
+    <input type="text" formControlName="age" >age
+
+    <button (click)="onSubmit()"  >Submit</button>
+    
+
+</form>
+
